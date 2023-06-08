@@ -1,0 +1,179 @@
+
+.main {
+    height: 800px;
+    margin: 30px 145px;
+}
+
+.name {
+    margin-top: -58px;
+    margin-left: 56px;
+    height: 60px;
+    width: 150px
+}
+
+.mus {
+    background-image: url(.//img/Rectangle\ 23.jpg);
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+nav.container
+{
+    margin:-50px auto auto 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 392px;
+}
+
+nav.container a
+{   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px ;
+    margin: 0px 10px;
+    padding: 5px 5px;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+nav.menu a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: black;
+    content: "";
+    opacity: 0;
+    transition: 1s;
+}
+
+nav.menu a:after
+{
+    bottom: 0px;  
+}
+
+nav.menu a:hover:before, nav.menu a:hover:after
+{
+    opacity: 1;
+   
+}
+
+.rightImg {
+    position: absolute;
+    width: 458px;
+    height: 640px;
+    left: 900px;
+    top: 153px;
+    
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content:stretch ;
+    margin: 260px auto auto 70px ;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.upText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size:48px;
+}
+
+.lowText {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buyTick, .LMore {
+    
+    background-color: green;
+    color: rgb(255, 255, 255);
+    margin-top: 16px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+ .LMore:hover {
+    opacity: 1;
+}
+
+.buyTick:hover {
+    opacity: 1;
+}
+
+.mainTwo {
+    background-image: url(.//img/Rectangle\ 23.jpg);
+    display: flex;
+    height: 1000px;
+    margin: 30px 145px;
+}
+.mainDiv {
+
+    width: 1000px;
+    height: 530px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgOne {
+
+    width: 534px;
+    height: 354px;
+    left: 179px;
+    top: 1015px;
+    background-image: url(.//img/Rectangle\ 21.jpg);
+}
+
+.imgTwo {
+    
+    width: 1040px;
+    height: 409px;
+    left: 179px;
+    top: 1449px;    
+    position: absolute;
+    background-image: url(.//img/Rectangle\ 22.jpg);
+}
+
+.text {
+    width: 300px;
+    height: 150px;
+    
+}
+
+.mainThree {
+    margin:0px 145px;
+    height: 600px;
+}
+
+.imgDIV {
+    margin:10px;
+}
+
+.img {
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.imgThree {
+    display: flex;
+    justify-content: space-evenly;
+}
